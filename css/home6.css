@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Heade r*/
+body {
+	font-family: "Open Sans", Sans-serif;
+	color: #FFFFFFB3;
+	background-color: #101116;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+}
+.top-header {
+	border-bottom: 1px solid #FFFFFF1A;
+}
+.ot-icon-list-wrapper .cinfo-header .ot-icon-list-item {
+    color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+}
+.ot-icon-list-wrapper .cinfo-header .ot-icon-list-icon {
+	font-size: 16px;
+}
+.ot-icon-list-wrapper .cinfo-header .ot-icon-list-icon svg {
+	fill: #FF7641;
+}
+.site-logo img {
+	max-width: 114px;
+}
+.octf-search {
+	margin-left: 40px;
+}
+.social-list a {
+	font-size: 16px;
+	color: #FFFFFF80;
+	margin-left: 20px;
+}
+.social-list a:hover {
+	color: #fff;
+}
+.s-light.main-navigation > ul > li > a, .s-light.vertical-main-navigation ul > li > a {
+	color: #fff;
+	font-family: "Open Sans", Sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+.main-navigation ul li li a, .octf-cta-header .h-search-form-field .h-search-form-inner input {
+	font-family: "Open Sans", Sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+.main-navigation>ul>li>a:hover:before, .main-navigation>ul>li.current-menu-item>a:before {
+	background-color: #fff;
+}
+.main-navigation ul li li a:hover, .main-navigation ul ul li.current-menu-item > a, .main-navigation ul ul li.current-menu-ancestor > a {
+	background-color: #FF7641;
+}
+.main-navigation>ul>li>a:before {
+	bottom: 28px;
+}
+.octf-search .search-form .search-submit {
+	background-color: #FF7641;
+}
+::-webkit-input-placeholder{
+    font-family: "Open Sans", Sans-serif;
+}
+.mmenu-toggle button {
+	color: #fff;
+}
+/* Top */
+.text-color-primary {
+	color: #ff7641;
+}
+.top-wrap h1 {
+	font-size: 130px;
+    font-weight: 400;
+    line-height: 140px;
+    margin-bottom: 0;
+}
+.feature h4 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 22px;
+}
+.feature p {
+    color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 23px;
+    display: block;
+}
+.btn-link {
+    color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 32px;
+}
+.btn-link:hover {
+	color: #ffffff;
+}
+.octf-btn.btn-bg-effect {
+    width: 260px;
+    padding: 9px 80px 0px 80px;
+    font-family: "Italiana", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FF7641;
+    border-color: #FF7641;
+}
+.bg-studio {
+	min-height: 900px;
+	background-image: url(../images/home6-image1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ot-heading__sub {
+	color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.ot-heading__title {
+	color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 64px;
+}
+.ot-icon-list-wrapper .ot-icon-list-item {
+    color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.ot-icon-list-wrapper .ot-icon-list-icon i {
+	color: #FF7641;
+}
+.ot-icon-list-wrapper .ot-icon-list-item a:hover {
+	color: #FF7641;
+}
+.ot-icon-box__icon {
+	font-size: 48px;
+}
+.ot-icon-box__icon svg {
+	fill: #FF7641;
+}
+.ot-icon-box__content .icon-box-title {
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+}
+.ot-icon-box__content .icon-box-title a, .ot-icon-box__content .icon-box-title a:hover {
+	color: #fff;
+}
+.icon-box-des {
+    margin-bottom: 20px;
+    color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.ot-icon-box__content .icon-box-btn {
+    font-family: "Italiana", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+.ot-icon-box__content .icon-box-btn a, .ot-icon-box__content .icon-box-btn a:hover {
+	color: #ffffff;
+}
+hr {
+	background-color: #FFFFFF33;
+	margin: 0;
+}
+section .container-fluid {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.project_filters li a {
+	color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+}
+.project_filters li a.selected, .project_filters li a:hover {
+	color: #FF7641;
+}
+.projects-box .portfolio-info h5 a {
+    color: #17181C;
+    background-image: linear-gradient(0deg, #17181C, #17181C);
+    font-family: "Italiana", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.projects-box .portfolio-info .portfolio-cates a {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    color: #17181C;
+    font-weight: 300;
+    line-height: 27px;
+}
+.octf-btn.octf-btn-light {
+	border-color: #fff;
+	background-color: transparent;
+}
+.ot-acc-item {
+	background-color: transparent;
+	border-color: #FFFFFF33;
+}
+.ot-acc-item__title {
+	font-family: "Italiana", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.ot-acc-item.current .ot-acc-item__title, .ot-acc-item:hover .ot-acc-item__title {
+	color: #FF7641;
+}
+.ot-acc-item__content {
+    color: #CBCCCC;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.ot-team__info .t-role {
+    color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+}
+.team-overlay-info .t-social a:hover {
+	color: #FF7641;
+}
+.ot-testimonial__item .ot-tquote {
+	margin-bottom: -40px;
+}
+.ot-testimonial__item .ot-tquote img {
+	max-width: 80px;
+}
+.ot-testimonial__item .ot-tcontent {
+	font-family: "Italiana", Sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.ot-testimonial__item .ot-tmeta .ot-tname {
+	color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1em;
+}
+.ot-testimonial__item .ot-tmeta .ot-tjob {
+	color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1em;
+}
+.ot-slider .ot-dots-classic .owl-dot.active span, .ot-slider .ot-dots-classic .owl-dot:hover span {
+	background-color: #FF7641;
+}
+.post-box .post-inner {
+	background-color: transparent;
+}
+.post-box .entry-media.post-cat-abs .entry-meta {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.post-box .entry-meta {
+	color: #BABABA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+.post-box .entry-meta a {
+	color: #BABABA;
+}
+.post-box .entry-meta a:hover {
+	color: #ff7641;
+}
+.post-box .entry-meta.meta-s2 span:not(:first-child) a {
+	border-color: #BABABA;
+}
+.related-posts .post-box .entry-meta > span:not(:last-child), .blog-grid .post-box .entry-meta > span:not(:last-child) {
+	margin-right: 8px;
+}
+.post-box .entry-meta a {
+	padding-left: 13px;
+}
+.blog-grid .post-box .entry-title {
+	color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.blog-grid .post-box .entry-title a {
+	color: #FFFFFF;
+}
+.post-box p {
+    color: #BABABA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.blog-grid .post-box .entry-footer {
+	font-family: "Italiana", Sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+.blog-grid .post-box .entry-footer a {
+	color: #fff;
+	line-height: 19px;
+	margin-top: 0;
+}
+.blog-grid .post-box .entry-footer a:hover {
+    color: #FF7641;
+}
+.divider-blog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 1px;
+	background-color: #FFFFFF1A;
+}
+.menu-footer li {
+	margin-right: 30px;
+}
+.menu-footer li:last-child {
+	margin-right: 0;
+}
+.menu-footer a {
+	color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.menu-footer a:hover {
+	color: #FF7641;
+}
+.copyright-text {
+    color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.ot-icon-list-wrapper .ft-cinfo .ot-icon-list-item:not(:last-child, .--inline-item) {
+    margin-bottom: 12px;
+}
+.ot-icon-list-wrapper .ft-cinfo .ot-icon-list-item {
+	color: #FFFFFFB3;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.ot-icon-list-wrapper .ft-cinfo .ot-icon-list-icon {
+	margin-right: 10px;
+    font-size: 19px;
+}
+.ot-icon-list-wrapper .ft-cinfo .ot-icon-list-icon svg {
+    fill: #FF7641;
+}
+@media only screen and (min-width: 1025px){
+	.octf-btn.btn-bg-effect:hover {
+	    transform: translate(0);
+	}
+}
+@media (max-width: 1199px){
+	.top-wrap h1 {
+		font-size: 100px;
+		line-height: 1.2;
+	}
+	.projects-grid.pf_3_cols .project-item, .projects-grid.pf_3_cols .grid-sizer {
+		width: 50%;
+	}
+}
+@media(max-width: 1024px){
+	.top-header {
+		display: none;
+	}
+	.octf-btn.btn-bg-effect {
+	    width: 220px;
+	    padding: 12px 20px 12px 20px;
+	    font-size: 14px;
+	}
+}
+@media (max-width: 991px){
+	.top-wrap h1 {
+		font-size: 88px;
+	}
+	section .container-fluid {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+@media (max-width: 767px){
+	.top-wrap h1 {
+		font-size: 44px;
+	}
+	.projects-grid.pf_3_cols .project-item, .projects-grid.pf_3_cols .grid-sizer {
+		width: 100%;
+	}
+	section .container-fluid {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.bg-studio {
+		min-height: 400px;
+	}
+}
+@media (max-width: 575px){
+	section .container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media (max-width: 480px){
+	section .container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+#back-to-top {
+    background: #ff7641;
+}

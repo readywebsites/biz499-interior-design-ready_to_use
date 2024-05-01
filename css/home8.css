@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+body {
+	background-color: #1A1B20;
+	color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+}
+.ot-site-logo img {
+	max-width: 114px;
+}
+.octf-search .toggle_search i {
+	color: #fff;
+}
+.octf-menu-hamburger-area {
+	margin-left: 40px;
+}
+.octf-menu-hamburger {
+    width: 645px;
+}
+.octf-menu-hamburger .site-navigation-wrap {
+	height: 100vh;
+	background-color: #1A1B20E6;
+	padding-left: 100px;
+	padding-right: 15px;
+}
+.hamburger-logo img {
+	max-width: 170px;
+}
+.vertical-main-navigation ul li {
+	text-align: left;
+}
+.vertical-main-navigation > ul > li > a {
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 56px;
+}
+.main-navigation ul > li > a, .vertical-main-navigation ul > li > a {
+	color: #fff;
+}
+.main-navigation > ul > li > a:hover, .main-navigation > ul > li.current-menu-item > a, .main-navigation > ul > li.current-menu-ancestor > a, 
+.vertical-main-navigation > ul > li > a:hover, .vertical-main-navigation > ul > li.current-menu-item > a, 
+.vertical-main-navigation > ul > li.current-menu-ancestor > a {
+	color: #CABA98;
+}
+.site-navigation-wrap p {
+	color: #FFFFFF;
+    font-family: "Heebo", Sans-serif;
+    margin-bottom: 0;
+}
+.site-navigation-wrap .side-pannel-phone {
+	color: #FFFFFF;
+    font-family: "Heebo", Sans-serif;
+}
+.site-navigation-wrap .site-pannel-phone:hover {
+	color: #CABA98;
+}
+.site-navigation-wrap .side-pannel-mail {
+	color: #CABA98;
+}
+.search-form .search-submit {
+	background-color: #CABA98;
+}
+.search-form .search-submit:hover {
+	background-color: #CABA98;
+}
+.ot-heading__sub {
+    color: #CABA98;
+    font-family: "Heebo", Sans-serif;
+}
+h1.ot-heading__title {
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+    line-height: 80px;
+}
+.service-img {
+	margin-bottom: 30px;
+}
+.service-title {
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+}
+.service-des {
+    color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.octf-btn.octf-btn-primary {
+    width: 330px;
+    padding: 19px 30px 17px 30px;
+    border-radius: 35px 35px 35px 35px;
+    font-family: "Heebo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+    background-color: #CABA98;
+}
+.octf-btn.octf-btn-primary:hover, .octf-btn.octf-btn-primary:focus {
+    color: #17181C;
+    background-color: #FFFFFF;
+}
+.top {
+	background-image: url(../images/home8-bg-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about {
+	background-image: url(../images/home8-bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-right-des {
+	color: #FFFFFF;
+    font-family: "Heebo", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+    border-top: 1px solid #CABA98;
+    margin-left: 100px;
+    margin-right: 90px;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+.ot-heading__title {
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+}
+.octf-btn.octf-btn-white {
+	background-color: #ffffff;
+	color: #17181C;
+}
+.octf-btn.octf-btn-white:hover {
+	color: #fff;
+    background-color: #CABA98;
+}
+.ot-icon-box.s-bg {
+	padding: 50px 36px 40px 40px;
+	background-color: #1E1D27;
+    background-image: url(../images/home8-bg-icon-box.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+    border-left: 1px solid #CABA98;
+}
+.ot-icon-box.bg1:hover {
+    background-image: url(../images/home8-hover-bg-ibox1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+.ot-icon-box.bg2:hover {
+    background-image: url(../images/home8-hover-bg-ibox2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+.ot-icon-box.bg3:hover {
+    background-image: url(../images/home8-hover-bg-ibox3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: transparent;
+}
+.s-bg .ot-icon-box__icon {
+	margin-bottom: 20px;
+}
+.s-bg .ot-icon-box__icon {
+    font-size: 48px;
+}
+.s-bg .ot-icon-box__icon svg {
+	fill: #fff;
+}
+.s-bg .ot-icon-box__content .icon-box-title {
+	margin-bottom: 15px;
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+}
+.s-bg .ot-icon-box__content .icon-box-title a {
+	color: #fff;
+}
+.s-bg .ot-icon-box__content .icon-box-title a:hover {
+	color: #CABA98;
+}
+.s-bg .icon-box-des {
+	margin-bottom: 30px;
+    color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.s-bg .ot-icon-box__content .icon-box-btn {
+    font-family: "Heebo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.s-bg .ot-icon-box__content .icon-box-btn a {
+	color: #fff;
+}
+.s-bg .ot-icon-box__content .icon-box-btn a:hover {
+	color: #CABA98;
+}
+.project {
+	background-image: url(../images/home8-bg3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects-box .portfolio-info .portfolio-info-inner {
+    padding: 30px 40px 30px 40px;
+}
+.ot-project-slider.style-4 .projects-box .portfolio-info {
+    border-left-color: #CABA98;
+    background-color: #1E1D2799;
+}
+.projects-box .portfolio-info h5 {
+    margin-bottom: 12px;
+}
+.projects-box .portfolio-info h5 a {
+    color: #FFFFFF;
+    background-image: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.projects-box .portfolio-info .portfolio-cates a {
+    font-family: "Heebo", Sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+}
+.ot-project-slider .owl-nav button[class*=owl-] {
+	color: #FFFFFF66;
+}
+.ot-project-slider .owl-nav button[class*=owl-]:hover {
+	color: #fff;
+}
+.ot-project-slider .owl-nav {
+	bottom: -80px;
+}
+.arrow-home9 .owl-nav button.owl-prev {
+	margin-top: 0;
+}
+.trust-block .ot-icon-list-icon {
+    margin-right: 25px;
+}
+.trust-block .ot-icon-list-icon i {
+    color: #CABA98;
+}
+.trust-block .ot-icon-list-item {
+    color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+}
+.process-list .ot-icon-box__content .icon-box-title {
+	margin-top: -10px;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+}
+.process-list .icon-box-des {
+	color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.cta {
+	background-image: url(../images/home8-bg5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cta .ot-heading__sub {
+	color: #fff;
+}
+.cta-phone {
+	text-align: center;
+    color: #CABA98;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px;
+}
+.ot-pricing-table {
+	background-color: #1E1D27;
+}
+.ot-pricing-table__title {
+	margin-bottom: 19px;
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+}
+.ot-pricing-table__subtitle {
+	margin-bottom: 17px;
+    color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+}
+.ot-pricing-table__price {
+	margin-bottom: 17px;
+    color: #CABA98;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+}
+.ot-pricing-table__divider span {
+	background-color: #FFFFFF1A;
+}
+.ot-pricing-table__features-list ul .pricing-features-icon i, .ot-pricing-table__features-list ol .pricing-features-icon i {
+	color: #CABA98;
+}
+.ot-pricing-table__features-list ul .pricing-features-text, .ot-pricing-table__features-list ol .pricing-features-text {
+	font-family: "Heebo", Sans-serif;
+	color: #fff;
+}
+.feature .ot-pricing-table__price {
+	color: #CABA98;
+}
+.ot-pricing-table.feature {
+	border-color: #CABA98;
+}
+.ot-pricing-table__footer .octf-btn.octf-btn-primary {
+	padding: 22px 30px 22px 30px;
+    font-family: "Heebo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1;
+}
+.testi {
+	background-image: url(../images/home8-bg6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ot-testimonial__item {
+	background: #1A1B20;
+    padding: 50px 60px 48px 50px;
+    border-left: 1px solid #caba98;
+    text-align: left;
+}
+.ot-testimonial__item .ot-tquote {
+    margin-bottom: 31px;
+}
+.ot-testimonial__item .ot-tcontent {
+    padding-bottom: 32px;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #DDDDDD;
+}
+.ot-testimonial__item .ot-tmeta .ot-tname {
+    margin-bottom: 2px;
+    color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.ot-testimonial__item .ot-tmeta .ot-tjob {
+    color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.ot-testimonial-slider-sarc .owl-nav {
+	display: flex;
+    top: -110px;
+    right: 385px;
+    width: auto;
+    transform: translateY(0);
+}
+.ot-testimonial-slider-sarc .owl-nav button[class*=owl-] {
+    color: #FFFFFF66;
+}
+.ot-testimonial-slider-sarc .owl-nav button[class*=owl-]:hover {
+	color: #fff;
+}
+.site-footer {
+	background-color: #1A1B20;
+}
+.ft-logo img {
+	width: 170px;
+}
+.site-footer h2 {
+	color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.site-footer p {
+	color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+}
+.footer-title {
+	color: #FFFFFF;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.footer-widget .ot-icon-list-item {
+	margin-bottom: 0;
+	color: #DDDDDD;
+    font-family: "Heebo", Sans-serif;
+}
+.footer-widget .ot-icon-list-wrapper a, .footer-widget a {
+	color: #DDDDDD;
+}
+.footer-widget .ot-icon-list-item a:hover, .footer-widget a:hover {
+    color: #CABA98;
+}
+.footer-widget a.title-link {
+	color: #fff;
+}
+.title-link.mail {
+	background-size: 100% 1px;
+}
+.footer-widget a.mail {
+	color: #CABA98;
+}
+#back-to-top {
+    background: #CABA98;
+}
+@media (min-width: 768px){
+	.ot-position-left .process-list .ot-icon-box__icon {
+	    margin-right: 30px;
+	}
+	.trust-img-3 {
+		position: absolute;
+		right: 15px;
+		bottom: 0;
+	}
+}
+@media (min-width: 992px){
+	.trust-img {
+		margin-left: -275px;
+	}
+	.trust-img-3 {
+		position: relative;
+		text-align: center;
+	}
+}
+@media(min-width: 1200px){
+	.trust-img-3 {
+		position: absolute;
+		left: 15px;
+		bottom: 0;
+		text-align: left;
+	}
+}
+@media(max-width: 1199px){
+	.ot-testimonial-slider-sarc .owl-nav {
+		right: 77px;
+	}
+}
+@media(max-width: 575px){
+	.ot-testimonial-slider-sarc .owl-nav {
+		right: calc(100% - 37px);
+		top: calc(100% + 30px);
+	}
+}
+@media(max-width: 767px){
+	h1.ot-heading__title {
+		line-height: 1.2;
+	}
+	.top-right-des {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+}

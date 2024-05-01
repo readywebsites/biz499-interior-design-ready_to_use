@@ -1,0 +1,602 @@
+/* Home 5 */
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+p {
+	color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+}
+/* Header */
+.side-panel .side-panel-block {
+	background-color: #fff;
+}
+.side-panel-content {
+	padding: 0px 35px 0px 75px;
+}
+#side-panel .side-panel-close {
+    color: #292B2E;
+    background: #FFFFFF;
+}
+.side-panel-logo img {
+	width: 166px;
+}
+.side-panel-content p {
+    color: #585756;
+    font-family: "Lexend", Sans-serif;
+    font-weight: 400;
+}
+.side-panel-content .author-widget_social a {
+    background-color: #EFEEED;
+}
+.side-panel-content .author-widget_social a:hover {
+    background-color: #035B65;
+    color: #fff;
+}
+.side-panel-content .insta-item {
+	margin-right: 9px;
+}
+.side-panel-adress {
+	margin-right: 100px;
+}
+.side-pannel-phone {
+    margin-bottom: 0px;
+    font-family: "Lexend", Sans-serif;
+    font-size: 18px;
+    color: #292B2E;
+    line-height: 32px;
+}
+.side-pannel-mail {
+	margin-bottom: 0px;
+    font-family: "Lexend", Sans-serif;
+    font-size: 18px;
+    color: #292B2E;
+    line-height: 32px;
+}
+.side-pannel-mail:hover, .side-pannel-phone:hover {
+	color: #035B65;
+}
+.octf-sidepanel {
+    margin-left: 40px;
+}
+.mmenu-toggle button {
+	color: #fff;
+}
+.panel-btn i {
+    color: #FFFFFF;
+}
+.octf-mainbar-row .cta-col {
+	max-width: 144px;
+}
+.site-logo img {
+	max-width: 114px;
+}
+.octf-search {
+	margin-left: 60px;
+}
+.octf-cta-header .h-search-form-field .h-search-form-inner button {
+	background-color: #86BF75;
+}
+.s-light.main-navigation > ul > li > a, .s-light.vertical-main-navigation ul > li > a {
+	color: #fff;
+	font-family: "DM Sans", Sans-serif;
+}
+.main-navigation ul li li a, .octf-cta-header .h-search-form-field .h-search-form-inner input {
+	font-family: "DM Sans", Sans-serif;
+}
+.main-navigation>ul>li>a:hover:before, .main-navigation>ul>li.current-menu-item>a:before {
+	background-color: #fff;
+}
+.main-navigation ul li li a:hover, .main-navigation ul ul li.current-menu-item > a, .main-navigation ul ul li.current-menu-ancestor > a {
+	background-color: #86BF75;
+}
+.main-navigation>ul>li>a:before {
+	bottom: 28px;
+}
+/* Banner */
+.banner {
+	background-image: url(../images/home5-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.banner-block h1 {
+	color: #fff;
+}
+.banner-block h1 {
+    color: #FFFFFF;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 11px;
+}
+.banner-block p {
+	color: #fff;
+}
+.octf-btn {
+	width: 270px;
+    padding: 25px 30px 25px 30px;
+    border-radius: 35px 35px 35px 35px;
+    font-family: "DM Sans", Sans-serif;
+    text-transform: none;
+}
+.octf-btn.octf-btn-white {
+	color: #153C36;
+	background-color: #ffffff;
+}
+.octf-btn.octf-btn-white:hover {
+	background-color: #153C36;
+	color: #fff;
+}
+.banner .container-fluid {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.banner-socials-block a {
+	color: #ffffff;
+	font-size: 23px;
+	margin-right: 30px;
+}
+.banner-socials-block a:last-child {
+	margin-right: 0;
+}
+.banner-socials-block a:hover {
+    transform: translateY(-8px);
+}
+.banner-phone a {
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    display: block;
+}
+.banner-bot-desc {
+	text-align: right;
+    color: #FFFFFFB3;
+    font-family: "Gilda Display", Sans-serif;
+}
+.banner-mail a {
+	margin-bottom: 0px;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 18px;
+    color: #FFFFFFB3;
+}
+.banner-mail a:hover {
+	color: #fff;
+}
+.btn-scroll a {
+	color: #FFFFFF;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 56px;
+}
+.btn-scroll img {
+	margin-right: 20px;
+}
+.btn-scroll img {
+	position: relative;
+    animation: MoveUpDown 1.5s linear infinite;
+}
+/* About */
+ .ot-heading__sub {
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.ot-heading__title {
+    color: #153C36;
+    font-family: "Gilda Display", Sans-serif;
+}
+.ot-view-stacked.check-list .ot-icon-box__icon {
+    font-size: 13px;
+    padding: 13.5px;
+    background-color: #86BF75;
+}
+.check-list .ot-icon-box__icon svg {
+    fill: #FFFFFF;
+}
+.ot-position-left.check-list .ot-icon-box__icon {
+    margin-right: 20px;
+}
+.check-list .ot-icon-box__content .icon-box-title {
+    margin-top: 3px;
+    color: #153C36;
+    font-family: "Gilda Display", Sans-serif;
+    font-weight: 400;
+}
+.check-list .icon-box-des {
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.ot-icon-list-wrapper .ot-icon-list-icon {
+	margin-right: 19px;
+    font-size: 12px;
+}
+.ot-icon-list-wrapper .ot-icon-list-icon svg {
+	fill: #86BF75;
+}
+.ot-icon-list-wrapper .ot-icon-list-item {
+    color: #153C36;
+    font-family: "DM Sans", Sans-serif;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+.octf-btn.octf-btn-primary {
+	background-color: #153C36;
+	color: #fff;
+}
+.octf-btn.octf-btn-primary:hover {
+	background-color: #86BF75;
+}
+.feature-image-box .ot-hover-image .overlay {
+    background-color: #153C36B3;
+}
+.feature-image-box .ot-hover-image .overlay img {
+	max-width: 110px;
+}
+.feature-image-box .feature-box-info h5 {
+    margin-bottom: 10px;
+    font-family: "Gilda Display", Sans-serif;
+}
+.feature-image-box .feature-box-info h5 a {
+	color: #153C36;
+}
+.feature-image-box .feature-box-info h5 a:hover {
+    color: #86BF75;
+}
+.feature-box-info p {
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.bg-third {
+	background-color: #F2FAF5;
+}
+.ot-view-stacked .icon-box-garden .ot-icon-box__icon {
+    font-size: 40px;
+    padding: 30px;
+    background-color: #86BF75;
+}
+.icon-box-garden .ot-icon-box__icon svg {
+    fill: #FFFFFF;
+}
+.icon-box-garden .ot-icon-box__content .icon-box-title {
+    color: #153C36;
+    font-family: "Gilda Display", Sans-serif;
+}
+.icon-box-garden .ot-icon-box__content .icon-box-title a {
+	color: #153C36;
+}
+.icon-box-garden .ot-icon-box__content .icon-box-title a:hover {
+    color: #86BF75;
+}
+.icon-box-garden .icon-box-des {
+    margin-bottom: 20px;
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.icon-box-garden .icon-box-btn a {
+	font-family: "DM Sans", Sans-serif;
+    color: #153C36;
+}
+.icon-box-garden .icon-box-btn a:hover {
+    color: #86BF75;
+}
+.icon-box-garden .inner-arrow {
+    position: absolute;
+    top: 35px;
+    right: -50px;
+}
+section .container-fluid {
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.ot-hover-box__content {
+    background-color: #0D2925B3;
+    padding: 0px 30px 0px 30px;
+}
+.box-content-inner h5 {
+    font-family: "Gilda Display", Sans-serif;
+}
+.box-content-inner img {
+    max-width: 78px;
+}
+.box-content-inner p {
+    color: #FFFFFFCC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+}
+.ot-process-box .process-box-title {
+	color: #153C36;
+    font-family: "Gilda Display", Sans-serif;
+}
+.ot-view-stacked .ot-process-box__icon {
+	font-size: 40px;
+    padding: 30px;
+    color: #153C36;
+    background-color: #F2FAF5;
+}
+.ot-view-stacked .ot-process-box:hover .ot-process-box__icon {
+	color: #FFFFFF;
+    background-color: #86BF75;
+}
+.ot-process-box__content {
+	margin-bottom: 20px;
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+}
+.ot-process-box__btn a {
+	color: #153C36;
+    font-family: "DM Sans", Sans-serif;
+}
+.ot-process-box__divider {
+	position: absolute;
+    z-index: -1;
+    margin-bottom: 0;
+    top: 103px;
+    background-color: #153C361A;
+}
+.ot-process-box__divider span {
+	background-color: #86BF75;
+}
+.ot-process-box:hover .ot-process-box__btn a {
+	color: #86BF75;
+}
+.garden-work {
+	background-image: url(../images/home5-image3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-garden-light {
+	color: #FFFFFFCC;
+}
+.ot-position-left .ot-counter .number-wrapper {
+	margin-right: 10px;
+}
+.ot-counter span {
+    color: #FFFFFF;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+.ot-counter .ot-counter__title {
+    color: #FFFFFF;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+.garden-counter p {
+    color: #FFFFFFCC;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.garden-counter {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #F2FAF533;
+}
+.garden-counter:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.ot-acc-item {
+	background-color: transparent;
+	border-color: #153C3633;
+    padding: 27px 0px 26px 0px;
+}
+.ot-acc-item:last-child {
+	border-bottom:1px solid #153C3633;
+}
+.ot-acc-item__title {
+	font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #153C36;
+}
+.ot-acc-item.current .ot-acc-item__title, .ot-acc-item:hover .ot-acc-item__title {
+    color: #86BF75;
+}
+.ot-acc-item__content {
+	color: #5D716D;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 16px 0px 0px 0px;
+}
+.acc-custom-icon .ot-acc-item__title > span {
+    padding: 9px;
+    text-align: center;
+    background-color: #86bf75;
+    border-radius: 50%;
+}
+.acc-custom-icon .ot-acc-item__title svg {
+    width: 11px;
+    fill: #fff;
+}
+.ot-testimonial__item {
+    padding: 0px 100px 0px 0px;
+}
+.ot-testimonial__item .ot-tquote {
+    margin-bottom: 32px;
+}
+.ot-testimonial__item .ot-tcontent {
+    padding-bottom: 20px;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #153C36;
+}
+.ot-testimonial__item .ot-tdivider span {
+    background-color: #153C361A;
+}
+.ot-testimonial__item .ot-tmeta .ot-tname {
+    margin-bottom: 14px;
+    color: #153C36;
+    font-family: "Public Sans", Sans-serif;
+    font-size: 18px;
+}
+.ot-testimonial__item .ot-tmeta .ot-tjob {
+    color: #596F6A;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    text-transform: none;
+}
+.ot-testimonial-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 45px;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:hover, .ot-slider.s-design-testi .ot-dots-classic .owl-dot.active, 
+.ot-slider.dots-custom .ot-dots-classic .owl-dot:hover, .ot-slider.dots-custom .ot-dots-classic .owl-dot.active {
+	border-color: #153C36;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot span, .ot-slider.dots-custom .ot-dots-classic .owl-dot span {
+	color: #5D716D4D;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:hover span, .ot-slider.s-design-testi .ot-dots-classic .owl-dot.active span, 
+.ot-slider.dots-custom .ot-dots-classic .owl-dot:hover span, .ot-slider.dots-custom .ot-dots-classic .owl-dot.active span {
+	background: #153C36;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:not(:last-child), .ot-slider.dots-custom .ot-dots-classic .owl-dot:not(:last-child) {
+	margin-bottom: 0;
+}
+.site-footer {
+	background-image: url(../images/home5-footer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-footer p {
+	color: #FFFFFFB3;
+}
+.list-phone a {
+	font-family: "Gilda Display", Sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+.ft-address {
+	color: #FFFFFFB3;
+    font-family: "Gilda Display", Sans-serif;
+}
+.ft-mail {
+	margin-bottom: 0px;
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 18px;
+    color: #FFFFFFB3;
+}
+.ft-mail:hover {
+	color: #86BF75;
+}
+.ft-form-block {
+	background-color: #fff;
+	padding: 60px;
+}
+.ft-form-block h3 {
+    color: #153C36;
+    font-family: "Gilda Display", Sans-serif;
+    line-height: 36px;
+}
+.ft-form-block p {
+    color: #153C36CC;
+    font-family: "DM Sans", Sans-serif;
+}
+.footer-home-5 p{
+    margin-bottom: 28px;
+}
+.footer-home-5 p:last-child{
+    margin-bottom: 0;
+}
+.footer-home-5 label{
+    display: block;
+    font-family: "DM Sans";
+    font-size: 14px;
+    color: rgba(21,60,54,0.8);
+    line-height: 1;
+    margin-bottom: 7px;
+}
+.footer-home-5 input,
+.footer-home-5 textarea{
+    font-family: "DM Sans";
+    font-size: 18px;
+    color: #153c36;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid rgba(21,60,54,0.1);
+    border-radius: 0;
+    padding: 0 20px 10px 0;
+    width: 100%;
+}
+.footer-home-5 textarea{
+    display: block;
+    height: 72px;
+}
+.footer-home-5 input:focus,
+.footer-home-5 textarea:focus,
+::-webkit-input-placeholder{
+    color: #153c36;
+}
+.footer-home-5 .octf-btn{
+    font-family: "DM Sans";
+    width: 100%;
+    padding: 25px 30px;
+    background-color: #86bf75;
+    border-radius: 35px;
+}
+.footer-home-5 .octf-btn:hover{
+    background-color: #153c36;
+}
+.footer-home-5 .octf-btn:focus {
+    outline: none;
+}
+.banner-socials-block .ft-social a:hover {
+	color: #86bf75;
+}
+.privacy a {
+	font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFFB3;
+}
+#back-to-top {
+	background-color: #86bf75;
+}
+@media (min-width: 1200px){
+	.br-xl-garden {
+		border-right: 1px solid #153C361A;
+	}
+}
+@media (max-width: 991px){
+	.ot-testimonial__item {
+		padding-right: 0;
+	}
+}
+@media(max-width: 767px){
+	.banner-block h1 {
+		font-size: 48px;
+    	line-height: 64px;
+	}
+	.banner-bot-desc {
+		text-align: center;
+	}
+}
+@media(max-width: 480px){
+	.banner .container-fluid, section .container-fluid {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.ft-form-block {
+		padding: 30px;
+	}
+}

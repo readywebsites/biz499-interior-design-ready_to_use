@@ -1,0 +1,333 @@
+/* Home 2 */
+.header-logo-2 img {
+  max-width: 109px;
+}
+.octf-search-2 .toggle_search i {
+  color: #666769;
+}
+.octf-menu-hamburger-area-2 a {
+  color: #666769;
+  background: #FFFFFF;
+}
+.octf-menu-hamburger .site-navigation-wrap {
+  height: 100vh;
+  background-color: #fff;
+}
+.octf-menu-hamburger .vertical-main-navigation > ul > li > a {
+  font-family: "Philosopher", Sans-serif;
+  font-size: 48px;
+  line-height: 76px;
+  color: #292B2E;
+}
+.octf-menu-hamburger .vertical-main-navigation > ul > li.current-menu-item > a, .octf-menu-hamburger .vertical-main-navigation ul > li > a:hover {
+  color: #847968;
+}
+.search-form.version-design input {
+  font-family: "Didact Gothic", Sans-serif;
+}
+.search-form.version-design .search-submit {
+  background: #847968;
+}
+.ft-logo.version-design img{
+  width: 170px;
+}
+.version-design .footer-title {
+  color: #292B2E;
+  font-family: "Philosopher", Sans-serif;
+  line-height: 27px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.footer-widget.version-design .ot-icon-list-wrapper a, .footer-widget.version-design a,
+.footer-widget.version-design .ot-icon-list-wrapper a span, .footer-widget.version-design a span{
+  color: rgb(102,103,105);
+  font-family: "Didact Gothic", Sans-serif;
+  line-height: 22px;
+}
+.footer-widget.version-design .ot-icon-list-wrapper a:hover, .footer-widget.version-design a:hover {
+  color: #847968;
+}
+.footer-widget.version-design p {
+  color: #666769;
+  font-family: "Didact Gothic", Sans-serif;
+}
+.copyright-text.version-design {
+  text-align: center;
+  color: #666769;
+  font-family: "Didact Gothic", Sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+.home-design #back-to-top {
+  background: #847968;
+}
+.top-design {
+  background-image: url('../images/home2-bg-banner.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.version-design .ot-heading__sub {
+  margin-bottom: 17px;
+  color: #847968;
+  font-family: "Didact Gothic", Sans-serif;
+}
+.version-design .ot-heading__sub span {
+  background-color: #DDDEDB;
+}
+.version-design .ot-heading__title {
+  color: #292B2E;
+  font-family: "Philosopher", Sans-serif;
+}
+.version-design h1.ot-heading__title {
+  line-height: 76px;
+}
+.octf-btn.octf-btn-design {
+  width: 220px;
+  height: 220px;
+  padding: 79px 30px 79px 30px;
+  border-radius: 50% 50% 50% 50%;
+  font-family: "Philosopher", Sans-serif;
+  line-height: 30px;
+  fill: #847968;
+  color: #847968;
+  background-color: #02010100;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #847968;
+}
+.octf-btn.octf-btn-design:hover {
+  color: #FFFFFF;
+  background-color: #847968;
+  border-color: #847968;
+}
+.design-section-bg-fixed {
+  min-height: 890px;
+  background-image: url(../images/home2-image1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-design p {
+  color: #666769;
+  font-family: "Didact Gothic", Sans-serif;
+}
+.s-design .icon-box-title {
+  margin-bottom: 21px;
+  color: #292B2E;
+  font-family: "Philosopher", Sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+.s-design .icon-box-title a {
+  color: #292B2E;
+}
+.s-design .icon-box-title a:hover {
+  color: #847968;
+}
+.s-design .icon-box-des {
+  margin-bottom: 20px;
+  color: #666769;
+  font-family: "Didact Gothic", Sans-serif;
+  font-size: 16px;
+}
+.s-design .icon-box-btn {
+  font-family: "Philosopher", Sans-serif;
+  line-height: 32px;
+}
+.s-design .icon-box-btn a {
+  color: #292B2E;
+}
+.s-design .icon-box-btn .title-link {
+  background-size: 100% 1px;
+}
+.s-design.ot-icon-box .icon-box-btn a:hover {
+  color: #847968;
+}
+.section-design-about {
+  min-height: 835px;
+}
+.s-design .ot-icon-list-item {
+  color: #292B2E;
+  font-family: "Didact Gothic", Sans-serif;
+  line-height: 24px;
+}
+.s-design .ot-icon-list-icon {
+  margin-right: 20px;
+}
+.s-design .ot-icon-list-icon i {
+  color: #847968;
+}
+.s-design .ot-icon-list-item span {
+  font-family: "Didact Gothic", Sans-serif;
+}
+.s-design .ot-icon-list-item a:hover {
+    color: #847968;
+}
+.s-design.ot-title-link h5 {
+  margin-bottom: 0px;
+  font-family: "Philosopher", Sans-serif;
+  font-size: 18px;
+}
+.s-design.ot-title-link a {
+  color: #847968;
+  background-size: 0 0px;
+}
+.s-design.ot-title-link a:hover {
+  color: #292B2E;
+}
+.s-design.video-popup a {
+  color: #FFFFFF;
+} 
+.s-design.video-popup a span {
+  border-color: #FFFFFF;
+}
+.s-design-about {
+  width: 410px;
+  background-color: #847968
+}
+.s-design-about img {
+  width: 272px;
+  height: 330px;
+}
+.s-design-light .ot-heading__sub {
+  color: #FFFFFF;
+}
+.s-design-light .ot-heading__sub span {
+  background-color: #DDDEDB;
+}
+.s-design-light .ot-heading__title {
+  color: #FFFFFF;
+}
+.section-design-project {
+  background-color: #292B2E;
+}
+.s-design-project .ot-hover-image .overlay {
+  background-color: #0E0F1280;
+}
+.s-design-project .ot-title-link h5 {
+  font-family: "Philosopher", Sans-serif;
+  margin-bottom: 10px;
+}
+.s-design-project .ot-title-link a {
+  color: #FFFFFF;
+}
+.s-design-project p {
+  color: #DEDEDE;
+  font-family: "Didact Gothic", Sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+.octf-btn.octf-btn-design-light {
+  color: #fff;
+  border-color: #fff;
+}
+.s-design-client a {
+  opacity: 0.5;
+}
+.s-design-client:hover a {
+  opacity: 1;
+}
+.s-design-image {
+  right: 15px;
+}
+.ot-testimonial-vertical.s-design-testi .ot-testimonial__item .ot-tquote {
+  background-color: #F7F7F5;
+}
+.ot-testimonial-vertical.s-design-testi .ot-testimonial__item .ot-tquote:after {
+  color: #847968;
+}
+.s-design-testi.ot-testimonial-vertical .ot-testimonial__item .ot-tcontent {
+  font-family: "Philosopher", Sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  color: #292B2E;
+}
+.s-design-testi.ot-testimonial-vertical .ot-testimonial__item .ot-tmeta .ot-tname {
+  color: #847968;
+  font-family: "Didact Gothic", Sans-serif;
+}
+.s-design-testi.ot-testimonial-vertical .ot-testimonial__item .ot-tmeta .ot-tjob {
+  color: #666769;
+  font-family: "Didact Gothic", Sans-serif;
+}
+.ot-slider.s-design-testi .ot-dots-classic {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: 0!important;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot, .ot-slider.dots-custom .ot-dots-classic .owl-dot {
+  padding: 8px;
+  margin-right: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  transition: border-color 0.3s linear;
+  -webkit-transition: border-color 0.3s linear;
+  -moz-transition: border-color 0.3s linear;
+  -o-transition: border-color 0.3s linear;
+  -ms-transition: border-color 0.3s linear;
+}
+.ot-testimonial-vertical .ot-dots-classic .owl-dot, .ot-testimonial-vertical.s-design-testi .ot-dots-classic .owl-dot {
+  display: block;
+  margin-right: 0;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:not(:last-child), .ot-slider.dots-custom .ot-dots-classic .owl-dot:not(:last-child) {
+  margin-bottom: 12px;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:hover, .ot-slider.s-design-testi .ot-dots-classic .owl-dot.active,
+.ot-slider.dots-custom .ot-dots-classic .owl-dot:hover, .ot-slider.dots-custom .ot-dots-classic .owl-dot.active {
+  border-color: #847968;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot span, .ot-slider.dots-custom .ot-dots-classic .owl-dot span {
+  background-color: #8c8e8d;
+  margin: 0;
+  transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot span, .ot-slider.dots-custom .ot-dots-classic .owl-dot span {
+  background: #292B2E4D;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot:hover span, .ot-slider.s-design-testi .ot-dots-classic .owl-dot.active span,
+.ot-slider.dots-custom .ot-dots-classic .owl-dot:hover span, .ot-slider.dots-custom .ot-dots-classic .owl-dot.active span {
+  background: #847968;
+}
+.ot-slider.s-design-testi .ot-dots-classic .owl-dot.active span, .ot-slider.dots-custom .ot-dots-classic .owl-dot.active span {
+  transform: none;
+}
+.gallery.s-design {
+  margin: 0 -30px -30px 0;
+}
+.gallery.s-design .gallery-item {
+  padding: 0 30px 30px 0;
+  text-align: left;
+}
+.gallery.s-design .gallery-item figure {
+  margin: 0;
+}
+.cta-design {
+  background-image: url(../images/home2-image4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cta-design h2 {
+  color: #FFFFFF;
+  font-family: "Philosopher", Sans-serif;
+  margin-bottom: 15px;
+}
+.cta-design p {
+  color: #FFFFFFCC;
+  font-family: "Didact Gothic", Sans-serif;
+}
