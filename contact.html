@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/royal-preload.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 
 <body class="royal_preloader">
@@ -318,7 +319,7 @@
                                 </div>
                                 <p>Your email address will not be published. Required fields are marked *</p>
                                 <div class="space-5"></div>
-                                <form id="ajax-form" name="ajax-form" action="contact.php" method="post" class="wpcf7">
+                                <form id="contactForm" class="wpcf7">
                                     <div class="main-form">
                                         <div class="row">
                                             <div class="col-lg-6 text-left">
@@ -351,7 +352,7 @@
                                                 <div class="space-10"></div>
                                             </div>
                                         </div>
-                                        <p><button type="submit" id="send" class="octf-btn">Send Message</button></p>
+                                        <button type="submit" class="common_btn">Submit Now </button>
                                         <div class="clear"></div>   
                                         <div class="error" id="err-form">There was a problem validating the form please check!</div>
                                         <div class="error" id="err-timedout">The connection to the server timed out!</div>
@@ -359,7 +360,7 @@
                                     </div>
                                 </form>
                                 <div class="clear"></div>
-                                <div id="ajaxsuccess">Successfully sent!!</div>
+                                <div id="success">Successfully sent!!</div>
                                 <div class="clear"></div>
                             </div>
                         </div>
@@ -442,8 +443,9 @@
 </div><!-- #page -->
 <a id="back-to-top" href="#" class="show"><i class="ot-flaticon-arow"></i></a>
         <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/lightgallery-all.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/easypiechart.min.js"></script>
@@ -464,7 +466,58 @@
                 text_colour: '#000000',
                 background:  '#ffffff'
             });
-        })(jQuery);
-    </script> 
+        })
+        (jQuery);
+          </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#contactForm').on('submit', function(e) {
+          e.preventDefault();
+          
+          var name = $('#name').val();
+          var email = $('#email').val();
+          var message = $('#message').val();
+  
+          $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbyMW7TQMXAcitfbNmYmOBXsQdg5cP4fzMoDcHFRYiyI1GG6x9lJ0qnPG4bG--hJEs3T/exec', // Replace with your Google Apps Script URL
+            method: 'POST',
+            data: {
+              name: name,
+              email: email,
+              message: message
+            },
+            success: function(response) {
+              toastr.success('Form submitted successfully!');
+              setTimeout(function() {
+                window.location.href = 'http://127.0.0.1:5501/ronmi_placeholder/contact.html';
+              }, 3000);
+            },
+            error: function() {
+              toastr.error('There was an error submitting the form. Please try again.');
+            }
+          });
+        });
+      });
+  
+      toastr.options = {
+    "closeButton": true,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": false,
+    "positionClass": "toast-top-full-width",
+    "preventDuplicates": false,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "1000",
+    "timeOut": "5000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
+    </script>
+
 </body>
 </html>
